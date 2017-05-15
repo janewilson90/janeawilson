@@ -19,16 +19,16 @@ wpfolder: public
 wpversion: latest
 
 # language/timezone
-wplocale: en_US
-timezone: "America/New_York"
+wplocale: en_GB
+timezone: "Europe/London"
 
 # admin user settings
 admin:
-  user: admin
-  password: admin
+  user: janewilson90
+  password: devpass
   email: mail@domain.tld
-  first_name: ""
-  last_name: ""
+  first_name: "Jane"
+  last_name: "Wilson"
 
 # scotch box db access
 db:
@@ -41,9 +41,9 @@ db:
 #################################################################
 
 wpsettings:
-  url: wpdistillery.dev
-  title: Example Title
-  description: Example Description
+  url: janeawilson.dev
+  title: Jane Wilson
+  description: UX Developer
   permalink_structure: "/%postname%/"
   thumbnail_width: 150
   thumbnail_height: 150
